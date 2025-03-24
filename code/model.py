@@ -1,12 +1,13 @@
 # Copyright (c) Microsoft Corporation. 
 # Licensed under the MIT license.
+import copy
+
 import torch
 import torch.nn as nn
-import torch
-from torch.autograd import Variable
-import copy
 import torch.nn.functional as F
+from torch.autograd import Variable
 from torch.nn import CrossEntropyLoss, MSELoss
+
 
 class RobertaClassificationHead(nn.Module):
     """Head for sentence-level classification tasks."""
