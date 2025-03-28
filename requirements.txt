@@ -1,4 +1,8 @@
-torch
-transformers
-scikit-learn
-datasets
+apex==0.9.10dev
+numpy==2.2.4
+ptvsd==4.3.2
+scikit_learn==1.4.1.post1
+tensorboardX==2.6.2.2
+torch==2.5.1+cu121
+tqdm==4.66.4
+transformers==4.45.2
